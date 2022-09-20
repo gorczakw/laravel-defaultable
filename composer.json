@@ -1,11 +1,11 @@
 {
-    "name": "gorczakw/laravel-repository",
-    "description": "Repository concept for Laravel framework.",
+    "name": "gorczakw/laravel-defaultable",
+    "description": "Defaultable trait for Laravel framework models.",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Gorczakw\\LaravelRepository\\": "src/"
+            "Gorczakw\\LaravelDefaultable\\": "src/"
         }
     },
     "authors": [
@@ -14,5 +14,9 @@
             "email": "gorczak.w@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=8.0",
+        "illuminate/database": ">=8.0",
+        "illuminate/support": ">=8.0"
+    }
 }
