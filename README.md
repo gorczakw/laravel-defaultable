@@ -1,1 +1,1 @@
-# laravel-repository
+# laravel-defaultable
